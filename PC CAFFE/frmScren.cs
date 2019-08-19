@@ -28,7 +28,6 @@ namespace PCPOS
         private void frmScren_Load(object sender, EventArgs e)
         {
             this.Paint += new PaintEventHandler(Class.Postavke.changeBackground);
-
             id_kasa = DTpostavke.Rows[0]["default_blagajna"].ToString();
             id_ducan = DTpostavke.Rows[0]["default_ducan"].ToString();
 
